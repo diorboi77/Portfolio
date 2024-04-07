@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.container {
+
+    width: 80%;
+    margin:50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+header{
+    margin-top: 50px;
+    text-align: center;
+}
+.logo{
+    width: 15%;
+}
+.card {
+    outline: none;
+    border-radius: 3px;
+    padding: 5%;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+
+    font-size: 28px;
+}
+a{
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+p{
+    margin-top: 5%;
+    font-size: 18px;
+
+}
+@media (max-width: 768px) {
+    .card{
+        font-size: 18px;
+        font-weight: 100;
+    }
+}
